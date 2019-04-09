@@ -27,6 +27,7 @@
 		275378B6225B4A4D00D8B14A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		275378BE225B52B800D8B14A /* Jewels_and_Stones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Jewels_and_Stones.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		275378BF225B592100D8B14A /* To_Lower_Case.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = To_Lower_Case.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		275378C1225B815900D8B14A /* Unique_Morse_Code_Words.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Morse_Code_Words.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				275378B6225B4A4D00D8B14A /* main.swift */,
 				275378BE225B52B800D8B14A /* Jewels_and_Stones.playground */,
 				275378BF225B592100D8B14A /* To_Lower_Case.playground */,
+				275378C1225B815900D8B14A /* Unique_Morse_Code_Words.playground */,
 			);
 			path = Swift_PS;
 			sourceTree = "<group>";
