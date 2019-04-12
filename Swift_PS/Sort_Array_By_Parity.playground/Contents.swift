@@ -20,18 +20,17 @@ func sortArrayByParityA(_ A: [Int]) -> [Int] {
 }
 
 func sortArrayByParityB(_ A: [Int]) -> [Int] {
-    var evenArray: [Int] = []
-    var oddArray: [Int] = []
+    var sortArray: [Int] = []
     
     for a in A {
         if a % 2 == 0 {
-            evenArray.append(a)
+            sortArray.insert(a, at: 0)
         } else {
-            oddArray.append(a)
+            sortArray.append(a)
         }
     }
     
-    return evenArray + oddArray
+    return sortArray
 }
 
 sortArrayByParityA([3,1,2,4])
