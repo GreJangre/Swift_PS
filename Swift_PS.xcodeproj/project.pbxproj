@@ -31,6 +31,7 @@
 		275378C1225B815900D8B14A /* Unique_Morse_Code_Words.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Morse_Code_Words.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		277606E82260B14B00541EC6 /* Squares_of_a_Sorted_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Squares_of_a_Sorted_Array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		279A5EE7225DE42D0049EA32 /* Unique_Email_Addresses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Email_Addresses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27A15AEF2263454E000BFBF5 /* Flipping_an_Image.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Flipping_an_Image.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27C5B33422602A2B0003FDE5 /* Sort_Array_By_Parity.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort_Array_By_Parity.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -72,6 +73,7 @@
 				27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */,
 				27C5B33422602A2B0003FDE5 /* Sort_Array_By_Parity.playground */,
 				277606E82260B14B00541EC6 /* Squares_of_a_Sorted_Array.playground */,
+				27A15AEF2263454E000BFBF5 /* Flipping_an_Image.playground */,
 			);
 			path = Swift_PS;
 			sourceTree = "<group>";
