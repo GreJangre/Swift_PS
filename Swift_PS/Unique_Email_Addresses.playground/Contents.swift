@@ -19,18 +19,24 @@ func numUniqueEmails(_ emails: [String]) -> Int {
     var uniqueEmails: Set<String> = []
     
     for email in emails {
+        let splitEmail: [String.SubSequence] = email.split(separator: "@")
         
-        let index = email.firstIndex(of: "@") ?? email.endIndex
-        
-        var localName = email[..<index]
-        
-        for char in localName {
-            
+        guard var emailFirst = splitEmail.first,
+            let emailLast = splitEmail.last else {
+                continue
         }
         
+        if let localName = emailFirst.split(separator: "+").first {
+            
+            emailFirst = localName
+        }
         
+        let emailAddress = emailFirst.split(separator: ".").joined()
+        
+        uniqueEmails.insert(emailAddress + "@" + emailLast)
     }
-    return 0
+    
+    return uniqueEmails.count
 }
 
 numUniqueEmails(["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"])
