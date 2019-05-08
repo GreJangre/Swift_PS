@@ -5,40 +5,29 @@
 */
 
 func hammingDistance(_ x: Int, _ y: Int) -> Int {
-    var intX: Int = x
-    var intY: Int = y
-    var hammingX = [Int](repeating: 0, count: 31)
-    var hammingY =  [Int](repeating: 0, count: 31)
+    var intValue: [Int] = [x, y]
+    var hammingValue: [[Int]] = Array(repeating: Array(repeating: 0, count: 31), count: 2)
     var count: Int = 0
     
-    for i in 0...hammingX.count {
-        if intX == 1 || intX == 0 {
-            hammingX[i] = intX
-            break
+    for j in 0..<2 {
+        for i in 0..<hammingValue[0].count {
+            if intValue[j] == 1 || intValue[j] == 0 {
+                hammingValue[j][i] = intValue[j]
+                break
+            }
+            
+            hammingValue[j][i] = intValue[j] % 2
+            
+            intValue[j] /= 2
         }
-        
-        hammingX[i] = intX % 2
-        
-        intX /= 2
     }
     
-    for i in 0...hammingY.count {
-        if intY == 1 || intY == 0 {
-            hammingY[i] = intY
-            break
-        }
-        
-        hammingY[i] = intY % 2
-        
-        intY /= 2
-    }
-
-    for index in 0..<hammingX.count {
-        if hammingX[index] != hammingY[index] {
+    for index in 0..<hammingValue[0].count {
+        if hammingValue[0][index] != hammingValue[1][index] {
             count += 1
         }
     }
-
+     
     return count
 }
 
