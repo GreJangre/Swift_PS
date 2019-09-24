@@ -37,6 +37,7 @@
 		279510062278661D000439DF /* Hamming_Distance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hamming_Distance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		279A5EE7225DE42D0049EA32 /* Unique_Email_Addresses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Email_Addresses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27A15AEF2263454E000BFBF5 /* Flipping_an_Image.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Flipping_an_Image.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27A8246F2339D93700993CCC /* Self_Dividing_Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Self_Dividing_Numbers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27C5B33422602A2B0003FDE5 /* Sort_Array_By_Parity.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort_Array_By_Parity.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27D4AE72227031AA00FF801B /* Robot_Return_to_Origin.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Robot_Return_to_Origin.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -68,6 +69,7 @@
 				277CED16227B2D500090844D /* DI_String_Match.playground */,
 				27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */,
 				2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */,
+				27A8246F2339D93700993CCC /* Self_Dividing_Numbers.playground */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
