@@ -9,12 +9,24 @@
 */
 
 func removeOuterParentheses(_ S: String) -> String {
+    var count = 0;
+    var parentheses = "";
     
     for s in S {
-        print(s)
+        
+        if s == "(" {
+            count += 1
+            if count > 1 {
+                parentheses.append(s)
+            }
+        } else if s == ")"  {
+            count -= 1
+            if count > 0 {
+                parentheses.append(s)
+            }
+        }
     }
-    
-    return ""
+    return parentheses
 }
 
-removeOuterParentheses("(()())(())")
+removeOuterParentheses("(()())(())") // "()()()"
