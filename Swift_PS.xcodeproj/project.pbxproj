@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Remove_Outermost_Parentheses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2720DA132339A841007CFEFA /* 1000.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1000.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defanging_an_IP_Address.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "N-Repeated_Element_in_Size_2N_Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		275378B3225B4A4D00D8B14A /* Swift_PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_PS; sourceTree = BUILT_PRODUCTS_DIR; };
 		275378B6225B4A4D00D8B14A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -49,6 +52,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2720DA0F2339A607007CFEFA /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				275378BE225B52B800D8B14A /* Jewels_and_Stones.playground */,
+				275378BF225B592100D8B14A /* To_Lower_Case.playground */,
+				275378C1225B815900D8B14A /* Unique_Morse_Code_Words.playground */,
+				279A5EE7225DE42D0049EA32 /* Unique_Email_Addresses.playground */,
+				27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */,
+				27C5B33422602A2B0003FDE5 /* Sort_Array_By_Parity.playground */,
+				277606E82260B14B00541EC6 /* Squares_of_a_Sorted_Array.playground */,
+				27A15AEF2263454E000BFBF5 /* Flipping_an_Image.playground */,
+				27D4AE72227031AA00FF801B /* Robot_Return_to_Origin.playground */,
+				279510062278661D000439DF /* Hamming_Distance.playground */,
+				277CED16227B2D500090844D /* DI_String_Match.playground */,
+				27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */,
+				2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		2720DA102339A61C007CFEFA /* Baeckjoon */ = {
+			isa = PBXGroup;
+			children = (
+				2720DA132339A841007CFEFA /* 1000.playground */,
+			);
+			path = Baeckjoon;
+			sourceTree = "<group>";
+		};
 		275378AA225B4A4D00D8B14A = {
 			isa = PBXGroup;
 			children = (
@@ -68,18 +99,9 @@
 		275378B5225B4A4D00D8B14A /* Swift_PS */ = {
 			isa = PBXGroup;
 			children = (
+				2720DA102339A61C007CFEFA /* Baeckjoon */,
+				2720DA0F2339A607007CFEFA /* LeetCode */,
 				275378B6225B4A4D00D8B14A /* main.swift */,
-				275378BE225B52B800D8B14A /* Jewels_and_Stones.playground */,
-				275378BF225B592100D8B14A /* To_Lower_Case.playground */,
-				275378C1225B815900D8B14A /* Unique_Morse_Code_Words.playground */,
-				279A5EE7225DE42D0049EA32 /* Unique_Email_Addresses.playground */,
-				27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */,
-				27C5B33422602A2B0003FDE5 /* Sort_Array_By_Parity.playground */,
-				277606E82260B14B00541EC6 /* Squares_of_a_Sorted_Array.playground */,
-				27A15AEF2263454E000BFBF5 /* Flipping_an_Image.playground */,
-				27D4AE72227031AA00FF801B /* Robot_Return_to_Origin.playground */,
-				279510062278661D000439DF /* Hamming_Distance.playground */,
-				277CED16227B2D500090844D /* DI_String_Match.playground */,
 			);
 			path = Swift_PS;
 			sourceTree = "<group>";
@@ -111,7 +133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = jangre;
 				TargetAttributes = {
 					275378B2225B4A4D00D8B14A = {
@@ -125,6 +147,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 275378AA225B4A4D00D8B14A;
 			productRefGroup = 275378B4225B4A4D00D8B14A /* Products */;
@@ -266,6 +289,7 @@
 		275378BB225B4A4D00D8B14A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57D97FY9G4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +300,7 @@
 		275378BC225B4A4D00D8B14A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57D97FY9G4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
