@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Remove_Outermost_Parentheses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defanging_an_IP_Address.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27224484233B467B00D09BA6 /* Range_Sum_of_BST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Range_Sum_of_BST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "N-Repeated_Element_in_Size_2N_Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		275378B3225B4A4D00D8B14A /* Swift_PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_PS; sourceTree = BUILT_PRODUCTS_DIR; };
 		275378B6225B4A4D00D8B14A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 				2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */,
 				27A8246F2339D93700993CCC /* Self_Dividing_Numbers.playground */,
 				27B5E6632339F25B008D327E /* Peak _ndex_in_a_Mountain_Array.playground */,
+				27224484233B467B00D09BA6 /* Range_Sum_of_BST.playground */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
