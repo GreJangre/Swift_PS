@@ -24,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Remove_Outermost_Parentheses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2720DA132339A841007CFEFA /* 1000.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 1000.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defanging_an_IP_Address.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "N-Repeated_Element_in_Size_2N_Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		275378B3225B4A4D00D8B14A /* Swift_PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_PS; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,14 +75,6 @@
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
-		2720DA102339A61C007CFEFA /* Baeckjoon */ = {
-			isa = PBXGroup;
-			children = (
-				2720DA132339A841007CFEFA /* 1000.playground */,
-			);
-			path = Baeckjoon;
-			sourceTree = "<group>";
-		};
 		275378AA225B4A4D00D8B14A = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +94,6 @@
 		275378B5225B4A4D00D8B14A /* Swift_PS */ = {
 			isa = PBXGroup;
 			children = (
-				2720DA102339A61C007CFEFA /* Baeckjoon */,
 				2720DA0F2339A607007CFEFA /* LeetCode */,
 				275378B6225B4A4D00D8B14A /* main.swift */,
 			);
