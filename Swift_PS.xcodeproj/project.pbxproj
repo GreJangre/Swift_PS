@@ -39,6 +39,7 @@
 		27A8246F2339D93700993CCC /* Self_Dividing_Numbers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Self_Dividing_Numbers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B5E6632339F25B008D327E /* Peak _ndex_in_a_Mountain_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Peak _ndex_in_a_Mountain_Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B6B86B233B1FDE0066CA93 /* 모의고사.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "모의고사.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27B6B86C233B205C0066CA93 /* 체육복.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "체육복.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27C5B33422602A2B0003FDE5 /* Sort_Array_By_Parity.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort_Array_By_Parity.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27D4AE72227031AA00FF801B /* Robot_Return_to_Origin.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Robot_Return_to_Origin.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -106,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				27B6B86B233B1FDE0066CA93 /* 모의고사.playground */,
+				27B6B86C233B205C0066CA93 /* 체육복.playground */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
