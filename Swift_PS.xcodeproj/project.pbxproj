@@ -44,6 +44,7 @@
 		27B6B86D233B20D60066CA93 /* K번째수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "K번째수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B6B86E233B218B0066CA93 /* 2016년.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2016년.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27BD4B30233D94E9008AF8D3 /* 수박수박수박수박수박수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "수박수박수박수박수박수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27BD4B31233D998E008AF8D3 /* 문자열을_정수로_바꾸기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "문자열을_정수로_바꾸기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27BFF901233C4083006F3724 /* Merge_Two_Binary_Trees.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Merge_Two_Binary_Trees.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27C0CB3F233C5CA100BB8AFD /* 문자열_내림차순으로_배치하기 .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "문자열_내림차순으로_배치하기 .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27C0CB40233C70E100BB8AFD /* 서울에서_김서방_찾기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "서울에서_김서방_찾기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -124,6 +125,7 @@
 				27C0CB40233C70E100BB8AFD /* 서울에서_김서방_찾기.playground */,
 				27C0CB41233C73B000BB8AFD /* 소수 찾기.playground */,
 				27BD4B30233D94E9008AF8D3 /* 수박수박수박수박수박수.playground */,
+				27BD4B31233D998E008AF8D3 /* 문자열을_정수로_바꾸기.playground */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
