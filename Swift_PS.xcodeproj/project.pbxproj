@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27058B6A2341E5D200621CF3 /* 약수의 합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "약수의 합.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Remove_Outermost_Parentheses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2720DA142339A940007CFEFA /* Defanging_an_IP_Address.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Defanging_an_IP_Address.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27224484233B467B00D09BA6 /* Range_Sum_of_BST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Range_Sum_of_BST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -130,6 +131,7 @@
 				27BD4B30233D94E9008AF8D3 /* 수박수박수박수박수박수.playground */,
 				27BD4B31233D998E008AF8D3 /* 문자열을_정수로_바꾸기.playground */,
 				2787CB01233F4980008595B1 /* 시저 암호.playground */,
+				27058B6A2341E5D200621CF3 /* 약수의 합.playground */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
