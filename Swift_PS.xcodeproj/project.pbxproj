@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2701B8E623443F1A001E4061 /* Search_in_a_Binary_Search_Tree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Search_in_a_Binary_Search_Tree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27058B6A2341E5D200621CF3 /* 약수의 합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "약수의 합.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27058B6B2341E83A00621CF3 /* Unique_Number_of_Occurrences.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Number_of_Occurrences.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27064519228D60F70020DB2A /* Remove_Outermost_Parentheses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Remove_Outermost_Parentheses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -92,6 +93,7 @@
 				27BFF901233C4083006F3724 /* Merge_Two_Binary_Trees.playground */,
 				27BD4B32233DA5A0008AF8D3 /* Array_Partition_I.playground */,
 				27058B6B2341E83A00621CF3 /* Unique_Number_of_Occurrences.playground */,
+				2701B8E623443F1A001E4061 /* Search_in_a_Binary_Search_Tree.playground */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
