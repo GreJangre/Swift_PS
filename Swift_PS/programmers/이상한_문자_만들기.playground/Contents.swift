@@ -12,27 +12,28 @@ func solution(_ s:String) -> String {
     var scalarArray: [UInt32] = []
     var scalarScdArray: [[UInt32]] = []
     var str = ""
-    var wordsArray: [String] = []
     
-    for i in s.split(separator: " ") {
-        wordsArray.append(String(i))
-    }
-    
-    print(s.split(separator: " "))
-    
-    for char in wordsArray {
-        scalarArray = []
+    for i in s.indices {
         
-        for c in char.unicodeScalars {
-            scalarArray.append(c.value)
+        let scalar = UnicodeScalar(String(s[i]))!.value
+        if scalar == 32 {
+            scalarArray.append(scalar)
+            scalarScdArray.append(scalarArray)
+            scalarArray = []
+        } else {
+            scalarArray.append(scalar)
+            
+            if i == s.index(before: s.endIndex){
+                scalarScdArray.append(scalarArray)
+                scalarArray = []
+            }
         }
-        scalarScdArray.append(scalarArray)
     }
     
     for k in 0..<scalarScdArray.count {
         for j in 0..<scalarScdArray[k].count {
             if j % 2 == 0 {
-                if scalarScdArray[k][j] >= 97 {
+                if scalarScdArray[k][j] >= 97 && scalarScdArray[k][j] <= 122 {
                     scalarScdArray[k][j] -= 32
                 }
             } else {
@@ -44,13 +45,11 @@ func solution(_ s:String) -> String {
                 str.append(String(newScalar))
             }
         }
-        if k != (scalarScdArray.count - 1) {
-            str.append(" ")
-        }
     }
-    
     return str
 }
 
-//solution("try hello world") // "TrY HeLlo WoRID"
-solution(" try hello world ")
+solution("try hello world") // "TrY HeLlo WoRID"
+solution(" try hello world strys try t ")
+solution("__TRY HELLO WORLD__")
+solution("lllll eeeeee ddddd")
