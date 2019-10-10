@@ -44,6 +44,8 @@
 		277606E82260B14B00541EC6 /* Squares_of_a_Sorted_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Squares_of_a_Sorted_Array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		277CED16227B2D500090844D /* DI_String_Match.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DI_String_Match.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		278308C2234EEE400091A6FD /* Sort_Array_By_Parity_II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort_Array_By_Parity_II.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		278308C3234F02D20091A6FD /* Find_Words_That_Can_Be_Formed_by_Characters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Find_Words_That_Can_Be_Formed_by_Characters.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		278308C4234F10150091A6FD /* 제일_작은_수_제거하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "제일_작은_수_제거하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2787CB01233F4980008595B1 /* 시저 암호.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "시저 암호.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		279510062278661D000439DF /* Hamming_Distance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hamming_Distance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		279A5EE7225DE42D0049EA32 /* Unique_Email_Addresses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Email_Addresses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -100,6 +102,7 @@
 				27058B6B2341E83A00621CF3 /* Unique_Number_of_Occurrences.playground */,
 				2701B8E623443F1A001E4061 /* Search_in_a_Binary_Search_Tree.playground */,
 				278308C2234EEE400091A6FD /* Sort_Array_By_Parity_II.playground */,
+				278308C3234F02D20091A6FD /* Find_Words_That_Can_Be_Formed_by_Characters.playground */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				272E4D41234C58EA00D4D7AC /* 자연수_뒤집어_배열로_만들기.playground */,
 				272E4D43234C625B00D4D7AC /* 정수_내림차순으로_배치하기.playground */,
 				272E4D45234C6E3000D4D7AC /* 정수_제곱근_판별.playground */,
+				278308C4234F10150091A6FD /* 제일_작은_수_제거하기.playground */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
