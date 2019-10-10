@@ -33,6 +33,7 @@
 		27224484233B467B00D09BA6 /* Range_Sum_of_BST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Range_Sum_of_BST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		272E4D41234C58EA00D4D7AC /* 자연수_뒤집어_배열로_만들기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "자연수_뒤집어_배열로_만들기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		272E4D43234C625B00D4D7AC /* 정수_내림차순으로_배치하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "정수_내림차순으로_배치하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		272E4D45234C6E3000D4D7AC /* 정수_제곱근_판별.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "정수_제곱근_판별.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27320AD0225F8AD100576525 /* N-Repeated_Element_in_Size_2N_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "N-Repeated_Element_in_Size_2N_Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		275378B3225B4A4D00D8B14A /* Swift_PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_PS; sourceTree = BUILT_PRODUCTS_DIR; };
 		275378B6225B4A4D00D8B14A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		27712FEB2346DBD500D7305B /* 자릿수_더하기.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "자릿수_더하기.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		277606E82260B14B00541EC6 /* Squares_of_a_Sorted_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Squares_of_a_Sorted_Array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		277CED16227B2D500090844D /* DI_String_Match.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DI_String_Match.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		278308C2234EEE400091A6FD /* Sort_Array_By_Parity_II.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sort_Array_By_Parity_II.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2787CB01233F4980008595B1 /* 시저 암호.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "시저 암호.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		279510062278661D000439DF /* Hamming_Distance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hamming_Distance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		279A5EE7225DE42D0049EA32 /* Unique_Email_Addresses.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Unique_Email_Addresses.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -97,6 +99,7 @@
 				27BD4B32233DA5A0008AF8D3 /* Array_Partition_I.playground */,
 				27058B6B2341E83A00621CF3 /* Unique_Number_of_Occurrences.playground */,
 				2701B8E623443F1A001E4061 /* Search_in_a_Binary_Search_Tree.playground */,
+				278308C2234EEE400091A6FD /* Sort_Array_By_Parity_II.playground */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				27712FEB2346DBD500D7305B /* 자릿수_더하기.playground */,
 				272E4D41234C58EA00D4D7AC /* 자연수_뒤집어_배열로_만들기.playground */,
 				272E4D43234C625B00D4D7AC /* 정수_내림차순으로_배치하기.playground */,
+				272E4D45234C6E3000D4D7AC /* 정수_제곱근_판별.playground */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
