@@ -54,6 +54,7 @@
 		27B48483235015DA005E7E9A /* 최대공약수와_최소공배수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "최대공약수와_최소공배수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B4848523501C96005E7E9A /* 콜라츠_추축.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "콜라츠_추축.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B4848623501F5A005E7E9A /* 예산.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "예산.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27B4848723502226005E7E9A /* x만큼_간격이_있는_n개의_숫자.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "x만큼_간격이_있는_n개의_숫자.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B5E6632339F25B008D327E /* Peak _ndex_in_a_Mountain_Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Peak _ndex_in_a_Mountain_Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B6B86B233B1FDE0066CA93 /* 모의고사.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "모의고사.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27B6B86C233B205C0066CA93 /* 체육복.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "체육복.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -160,6 +161,7 @@
 				27B48483235015DA005E7E9A /* 최대공약수와_최소공배수.playground */,
 				27B4848523501C96005E7E9A /* 콜라츠_추축.playground */,
 				27B4848623501F5A005E7E9A /* 예산.playground */,
+				27B4848723502226005E7E9A /* x만큼_간격이_있는_n개의_숫자.playground */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
